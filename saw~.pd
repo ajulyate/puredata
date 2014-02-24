@@ -1,0 +1,12 @@
+#N canvas 247 234 700 476 10;
+#X obj 112 115 phasor~;
+#X obj 112 192 -~ 1;
+#X obj 111 157 *~ 2;
+#X obj 113 250 outlet~;
+#X text 77 -5 Note In;
+#X text 105 272 Sawtooth Out;
+#X obj 83 13 inlet~;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X connect 6 0 0 0;
